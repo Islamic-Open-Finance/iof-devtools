@@ -2,8 +2,8 @@
 
 Command-line tools and utilities for developing with the Islamic Open Finance (IOF) Platform.
 
-[![npm](https://img.shields.io/npm/v/@iof/devtools)](https://www.npmjs.com/package/@iof/devtools)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 
 ## Features
 
