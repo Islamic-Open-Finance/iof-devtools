@@ -1,20 +1,20 @@
-# IOF DevTools
+# IOF™ DevTools
 
-Command-line tools and utilities for developing with the Islamic Open Finance (IOF) Platform.
+Command-line tools and utilities for developing with the Islamic Open Finance™ (IOF) Platform.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 
 ## Features
 
-✅ **API Testing** - Test API endpoints from command line
-✅ **Contract Validation** - Validate Shariah compliance
-✅ **SDK Generation** - Generate client SDKs in multiple languages
-✅ **Mock Data** - Generate realistic test data
-✅ **Webhook Testing** - Test webhook integrations
-✅ **Environment Management** - Switch between environments
-✅ **Logging** - Beautiful formatted logs and debugging
-✅ **Scaffolding** - Bootstrap new projects
+- ✅ **API Testing** - Test API endpoints from command line
+- ✅ **Contract Validation** - Validate Shariah compliance
+- ✅ **SDK Generation** - Generate client SDKs in multiple languages
+- ✅ **Mock Data** - Generate realistic test data
+- ✅ **Webhook Testing** - Test webhook integrations
+- ✅ **Environment Management** - Switch between environments
+- ✅ **Logging** - Beautiful formatted logs and debugging
+- ✅ **Scaffolding** - Bootstrap new projects
 
 ## Installation
 
