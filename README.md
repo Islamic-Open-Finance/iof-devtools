@@ -1,20 +1,20 @@
-# IOF™ DevTools
+# IOF DevTools
 
 Command-line tools and utilities for developing with the Islamic Open Finance™ (IOF) Platform.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![npm](https://img.shields.io/npm/v/@iof/devtools)](https://www.npmjs.com/package/@iof/devtools)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&logoColor=white)](LICENSE)
 
 ## Features
 
-- ✅ **API Testing** - Test API endpoints from command line
-- ✅ **Contract Validation** - Validate Shariah compliance
-- ✅ **SDK Generation** - Generate client SDKs in multiple languages
-- ✅ **Mock Data** - Generate realistic test data
-- ✅ **Webhook Testing** - Test webhook integrations
-- ✅ **Environment Management** - Switch between environments
-- ✅ **Logging** - Beautiful formatted logs and debugging
-- ✅ **Scaffolding** - Bootstrap new projects
+✅ **API Testing** - Test API endpoints from command line
+✅ **Contract Validation** - Validate Shariah compliance
+✅ **SDK Generation** - Generate client SDKs in multiple languages
+✅ **Mock Data** - Generate realistic test data
+✅ **Webhook Testing** - Test webhook integrations
+✅ **Environment Management** - Switch between environments
+✅ **Logging** - Beautiful formatted logs and debugging
+✅ **Scaffolding** - Bootstrap new projects
 
 ## Installation
 
@@ -66,7 +66,7 @@ Login to IOF Platform:
 iof login
 
 # With API key
-iof login --api-key iof_live_abc123
+iof login --api-key $IOF_API_KEY
 
 # With OAuth
 iof login --oauth
@@ -462,7 +462,7 @@ Manage configuration:
 iof config list
 
 # Set value
-iof config set api_key iof_live_abc123
+iof config set api_key $IOF_API_KEY
 
 # Get value
 iof config get api_key
@@ -478,15 +478,15 @@ Configuration is stored in `~/.iof/config.json`:
 ```json
 {
   "environment": "production",
-  "api_key": "iof_live_abc123",
+  "api_key": "<IOF_API_KEY>",
   "environments": {
     "production": {
       "url": "https://api.islamicopenfinance.com",
-      "api_key": "iof_live_abc123"
+      "api_key": "<IOF_API_KEY>"
     },
     "sandbox": {
       "url": "https://api.sandbox.islamicopenfinance.com",
-      "api_key": "iof_sandbox_xyz789"
+      "api_key": "<IOF_API_KEY>"
     }
   },
   "defaults": {
@@ -502,7 +502,7 @@ Configuration is stored in `~/.iof/config.json`:
 Configure via environment variables:
 
 ```bash
-export IOF_API_KEY=iof_live_abc123
+export IOF_API_KEY=<your-api-key>
 export IOF_ENVIRONMENT=production
 export IOF_LOG_LEVEL=debug
 export IOF_TIMEOUT=30000
@@ -514,7 +514,7 @@ export IOF_TIMEOUT=30000
 
 ```bash
 # 1. Login
-iof login --api-key iof_sandbox_abc123
+iof login --api-key $IOF_API_KEY
 
 # 2. Switch to sandbox
 iof env use sandbox
@@ -706,7 +706,6 @@ Apache License 2.0 - see [LICENSE](LICENSE) file for details.
 
 - [IOF OpenAPI](https://github.com/Islamic-Open-Finance/iof-openapi) - OpenAPI specification
 - [IOF SDKs](https://github.com/Islamic-Open-Finance/iof-sdks) - Client libraries
-- [IOF Mock Server](https://github.com/Islamic-Open-Finance/iof-mock) - Mock server
 
 ---
 
