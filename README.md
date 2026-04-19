@@ -5,6 +5,15 @@ Command-line tools and utilities for developing with the Islamic Open Finance™
 [![npm](https://img.shields.io/npm/v/@iof/devtools)](https://www.npmjs.com/package/@iof/devtools)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&logoColor=white)](LICENSE)
 
+## What you're building against
+
+IOF is a banking-grade Shariah-native platform: **109 rails across 19 categories** (142+ endpoints) composed from **10 native domain engines** over a single double-entry ledger. Two of those engines are the platform's defensible moats — the surfaces `iof` CLI exercises most:
+
+- **Settlement Engine** — `iof settlement *` exercises 24×7×365 DvP/FOP/RVP/DFP finality for Murabaha, Ijarah, Salam, Sukuk. AAOIFI SS-1/8/10/17/21/30 enforced at the state machine; CSDR Art. 7 penalties priced pre-confirm. Reclaims 60–140 bps per corridor.
+- **Evidence Engine** — `iof evidence export` pulls signed, tamper-evident compliance packs: 47/54 controls across SOC 2, ISO 27001, AAOIFI, GDPR, PSD2, IFSB, ISO 20022, SHA-256 Merkle + HMAC, one-call verification. Reclaims 30–55 bps on audit + re-papering.
+
+Combined: **100–195 bps** of Islamic-finance friction reclaimed per corridor — no core replacement.
+
 ## Features
 
 ✅ **API Testing** - Test API endpoints from command line
